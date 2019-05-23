@@ -6,14 +6,18 @@ body {
   background-color: #ff4c68;
 }
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
+}
+
+.hero-heading {
+  padding-right: 0;
 }
 
 .heading1 {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.5;
 }
 
@@ -36,8 +40,11 @@ body {
 }
 
 .transform-img {
-  width: 60%;
-  transform: rotate(20deg);
+  width: 65%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+  top: -10%;
 }
 
 /* download buttons */
@@ -51,6 +58,8 @@ body {
 #features {
   padding-top: 7%;
   padding-bottom: 7%;
+  background-color: white;
+  position: relative;
 }
 
 .features-item {
@@ -122,3 +131,44 @@ body {
 .price-col {
   padding: 3% 2%;
 }
+
+/* cta styles */
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.cta-h3 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* footer styles */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-m {
+  margin: 20px 10px;
+}
+
+/* media querys */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .transform-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
