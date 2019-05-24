@@ -172,3 +172,21 @@ body {
   }
 }
 
+@media (max-width: 400px) {
+  .brand-name {
+    font-size: 1.9rem;
+  }
+  .hero-heading{
+    padding: 7% 0%;
+  }
+  .heading1 {
+    font-size: 2.5rem;
+  }
+  .cta-h3 {
+    font-size: 2.5rem;
+  }
+  #testimonials h2, #pricing h2 {
+    font-size: 1.5rem;
+  }
+}
+
